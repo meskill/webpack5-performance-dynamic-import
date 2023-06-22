@@ -1,0 +1,36 @@
+{
+    "name": "snapshot",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://Yog9.github.io/SnapShot",
+    "scripts": {
+        "build": "webpack",
+        "build-debug": "node --inspect --inspect-brk ./node_modules/.bin/webpack",
+        "serve": "webpack serve"
+    },
+    "dependencies": {
+        "@babel/core": "^7.22.5",
+        "@babel/preset-env": "^7.22.5",
+        "@babel/preset-react": "^7.22.5",
+        "babel-loader": "^9.1.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "@tramvai/core": "2.72.5",
+        "@tramvai/module-child-app": "2.72.5",
+        "@tramvai/module-common": "2.72.5",
+        "@tramvai/module-error-interceptor": "2.72.5",
+        "@tramvai/module-http-proxy-agent": "2.72.5",
+        "@tramvai/module-log": "2.72.5",
+        "@tramvai/module-page-render-mode": "2.72.5",
+        "@tramvai/module-render": "2.72.5",
+        "@tramvai/module-seo": "2.72.5",
+        "@tramvai/module-server": "2.72.5",
+        "@tramvai/react": "2.72.5",
+        "@tramvai/state": "2.72.5"
+    },
+    "devDependencies": {
+        "webpack": "^5.85.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
